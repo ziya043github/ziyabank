@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans antialiased transition-colors duration-300;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/10 dark:bg-black/20 backdrop-blur-md border border-white/20 dark:border-white/10 shadow-xl;
+  }
+  
+  .glass-card {
+    @apply bg-white/70 dark:bg-ziya-dark/70 backdrop-blur-lg border border-gray-200 dark:border-gray-800 shadow-lg rounded-2xl;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-ziya-red to-ziya-accent;
+  }
+}
