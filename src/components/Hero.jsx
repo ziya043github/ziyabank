@@ -75,7 +75,7 @@ const Hero = () => {
                   <div className="flex justify-between items-end">
                     <div>
                       <div className="text-white/40 text-xs uppercase mb-1">Card Holder</div>
-                      <div className="text-white font-medium tracking-wide">ZIYA NİYAZOGLU</div>
+                      <div className="text-white font-medium tracking-wide">ZIYA NIYAZOGLU</div>
                     </div>
                     <div className="w-12 h-8 bg-white/20 rounded flex items-center justify-center">
                        <div className="w-6 h-6 bg-yellow-400/80 rounded-full -mr-3 mix-blend-screen"></div>
